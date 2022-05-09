@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'Koulen', sans-serif;
+    letter-spacing: 0.20rem;
+    font-size: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 7rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 40px;
+    margin: 0.25rem;
+    padding: 2rem 0;
+    cursor: pointer;
+    color: transparent;
+}
+
+.quadrado:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.informations {
+    margin-top: 4rem;
+}
+
+.jogador,
+.vencedor {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#jogador-selecionado,
+#vencedor-selecionado {
+    font-weight: normal;
+}
+
+.button-restart {
+    margin-top: 2rem;
+    background: #ac3dec;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    width: 10rem;
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+
+.button-restart:hover {
+    background: #8c24d4;
+}
